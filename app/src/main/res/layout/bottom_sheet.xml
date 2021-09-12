@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    app:behavior_peekHeight="60dp"
+    app:behavior_hideable="true"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/add_event_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:text="Add Event">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Date:"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <EditText
+        android:id="@+id/task_ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Task:"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+    </Button>
+</LinearLayout>

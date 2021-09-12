@@ -1,0 +1,2 @@
+rootProject.name='Mycalendar_app_by_command'
+include ':app'
